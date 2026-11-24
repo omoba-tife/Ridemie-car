@@ -6,7 +6,9 @@ import Home from "./pages/Home";
 import Fleet from "./pages/Fleet";
 import VehicleDetails from "./pages/VehicleDetails";
 import NotFound from "./pages/NotFound";
-
+import Partners from "./pages/Partners";
+import Contact from "./pages/Contact";
+import Login from "./pages/Login";
 import Booking from "./pages/Booking";
 import Services from "./pages/Services";
 import Experience from "./pages/Experience";
@@ -19,6 +21,9 @@ export default function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/fleet" element={<Fleet />} />
           <Route path="/fleet/:id" element={<VehicleDetails />} />
+          <Route path="/partners" element={<Partners />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/services" element={<Services />} />
           <Route path="/experience" element={<Experience />} />
